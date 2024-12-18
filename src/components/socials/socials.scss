@@ -1,0 +1,19 @@
+.socials-handles{
+    position:absolute;
+    bottom:2rem;
+    left:0;
+    display:flex;
+    font-size: 1.8rem;
+    flex-direction:column;
+
+    .line{  
+        width:1px;
+        height:2rem;
+        background-color:var(--color-primary); 
+
+    }
+    
+    a{
+        color:var(--color-primary);
+    }
+}

@@ -1,0 +1,105 @@
+.contact{
+    &__section{
+    text-align:center;
+    padding:14rem 0 8rem;
+
+    }
+    &__box{
+        display:flex;
+        // gap:1rem;
+
+        &-cards{
+            flex:3;
+            // background-color: red;
+            display:flex;
+            flex-direction:column;
+            // justify-content: flex-start;
+            align-items: flex-end;
+            gap:2rem;
+
+            .contact__box-card{
+                display:flex;
+                flex-direction:column;
+                align-items: center;
+                padding:2rem 0;
+                background-color: var(--color-bg--variant);
+                border-radius:18px;
+                width:65%;
+                .contact{
+
+                    &__icon{
+                        width:2.3rem;
+                        height:2.3rem;
+                        // color:red;
+                        // background-color: #fff;
+                    }
+                    &__name{
+                        font-size: 1.4rem;
+                        color:#fff;
+                        margin-top:1.2rem;
+                        font-weight: 500;
+                    }
+                    &__link{
+                        padding:0;
+                        font-size:1.3rem;
+                        color:#fff;
+                        margin-bottom:1.2rem;
+                        // padding:0 5rem;
+                        // background-color: red;
+                    }
+                    &__cta{
+                        color:var(--color-primary);
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            
+        }
+        &-form{
+            flex:5;
+            padding-left:10.5rem;
+            
+            form{
+                // background-color: red;
+                display:flex;
+                flex-direction:column;
+                width:80%;
+                gap:2rem;
+
+                input,textarea{
+                    background-color: transparent;
+                    outline:none;
+                    border:1px solid var(--color-primary-variant);
+                    border-radius:6px;
+                    padding:2rem 2rem;
+                }
+                textarea{
+                    height:13rem;
+                }
+                button{
+                    align-self: flex-start;
+                }
+            }
+        }
+    }
+}
+@media(max-width:700px){
+    .contact__box{
+        flex-direction: column;
+        // flex:none;
+        gap:3.5rem;
+        // justify-content: center;
+        
+
+        .contact__box-cards{
+            align-items: center;
+            // justify-content: center;
+            margin:0 auto;
+            width:80%;
+            
+        }
+        .contact__box-form{
+            
+        }
+    }
+}

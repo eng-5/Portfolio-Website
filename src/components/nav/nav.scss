@@ -1,0 +1,32 @@
+.navbar{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    // width:20%;
+    bottom:2rem;
+   left:50%;
+   transform:translateX(-50%);
+   z-index:1000;
+   border-radius: 200px;
+   padding:1.1rem 1.8rem;
+   backdrop-filter:blur(15px);
+   display:flex;
+   gap:.8rem;
+   justify-content:center;
+   align-items:center;
+
+   a{
+    color:var(--color-primary);
+    font-size:1.8rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:1.3rem 1.3rem;
+    border-radius:50%;
+    transition:all .8s ease;
+
+    &:hover{
+        background-color: var(--color-primary);
+        color:var(--color-bg);
+    }
+   }
+}

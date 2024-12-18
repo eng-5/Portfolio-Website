@@ -1,0 +1,27 @@
+.about__card{
+    background: var(--color-bg--variant);
+    padding:3.5rem 2.5rem;
+    border-radius:10px;
+    flex:1;
+    // font-size: 
+}
+.card{
+   &__div{
+    display:flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    h5{
+        font-size: 1.3rem;
+    }
+    small{
+        font-size: 1.1rem;
+        color:var(--color-light);
+    }
+   } 
+   &__icon{
+    font-size: 2rem;
+   }    
+}
