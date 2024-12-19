@@ -1,5 +1,5 @@
 import './button.scss';
-import CV from '../../../assets/Hr_EmployeeReport.pdf';
+import CV from '../../../assets/Nkechukwu Resume.pdf';
 
 const Button = ({children,type,href}) => {
     let data ={};
