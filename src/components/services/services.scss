@@ -1,0 +1,41 @@
+.service__section{
+    text-align: center;
+    padding:11rem 0 3rem;
+}
+.services__div{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    // align-items:center;
+}
+.service{
+    &__card{
+      border:.5px solid var(--color-primary);
+      border-radius:0 0 25px 25px;
+      height:fit-content;
+        width:30rem;
+        margin-bottom: 2rem;
+      
+    }
+    &__heading{
+        background-color: var(--color-primary);
+        color:var(--color-bg);
+        padding:2.5rem 3rem;
+        border-radius:0 0 25px 25px;
+        font-size: var(--default-font-heading);
+        font-weight: 500;
+    }
+    &__lists{
+        display:flex;
+        flex-direction: column;
+        gap:1.5rem;
+        text-align:left;
+        padding:2rem 3.2rem;
+        font-size:var(--default-font-size);
+    }
+    &__list{
+        // padding:0 2rem; 
+    }
+    
+}
